@@ -1,5 +1,7 @@
 # Vector Database Demonstration Application
 
+![Vector Space Illustration](docs/images/vector_space.png)
+
 A modular, educational application to demonstrate how Vector Databases work using Python, FastAPI, and Streamlit.
 
 ## Features
@@ -50,8 +52,16 @@ You need to run the backend and the frontend separately.
    The UI will be available at `http://localhost:8501`.
 
 ## How to Use
+
+### 1. Upload & Process
+![Upload UI Mockup](docs/images/ui_upload.png)
+
 1. **Select Database**: Choose ChromaDB or Qdrant from the sidebar.
 2. **Upload**: Drop a PDF or TXT file and click "Process & Store".
+
+### 2. Similarity Search
+![Search UI Mockup](docs/images/ui_search.png)
+
 3. **Search**: Go to the "Similarity Search" tab and ask questions about the document.
 4. **Inspect**: Explore "Vector Operations" to see how data is structured.
 
