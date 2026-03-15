@@ -54,14 +54,14 @@ You need to run the backend and the frontend separately.
 ## How to Use
 
 ### 1. Upload & Process
-![Upload UI Mockup](docs/images/ui_upload.png)
+
 ![Existing Upload Screen](docs/images/img-1.png)
 
 1. **Select Database**: Choose ChromaDB or Qdrant from the sidebar.
 2. **Upload**: Drop a PDF or TXT file and click "Process & Store".
 
 ### 2. Similarity Search
-![Search UI Mockup](docs/images/ui_search.png)
+
 ![Existing Search Screen](docs/images/img-2.png)
 ![Existing Results Screen](docs/images/img-3.png)
 
